@@ -1,0 +1,31 @@
+.card {
+  margin-bottom: 20px;
+  border-radius: 0.9rem;
+  box-shadow: 0 6px 8px rgb(177 163 163 / 19%), 0 2px 2px rgb(255 255 255 / 23%);
+}
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.card-body img,
+.evolution-image img {
+  width: 170px;
+}
+
+.card-footer,
+.details-poke-name {
+  text-transform: uppercase;
+}
+.image-details img {
+  width: 300px;
+}
+ul {
+  list-style: none;
+}
+.details {
+  text-align: left;
+}
+.badge {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
